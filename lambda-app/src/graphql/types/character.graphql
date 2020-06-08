@@ -1,0 +1,9 @@
+type Character {
+    id: String!
+    fullName: String!
+    movies: [Movie]!
+}
+
+type Query {
+    character(id: String!): Character!
+}
